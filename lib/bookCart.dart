@@ -160,6 +160,7 @@ class CheckBoxListTileDemoState extends State<CheckBoxListTileDemo> {
                             Container(
                               child: ElevatedButton(
                                 onPressed: () {
+                                  removeCheckedItems();
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(

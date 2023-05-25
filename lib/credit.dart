@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 class BookCredit extends StatelessWidget {
   final int total;
-
   const BookCredit({Key? key, required this.total}) : super(key: key);
 
   @override
